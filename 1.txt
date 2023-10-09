@@ -1,0 +1,19 @@
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	setlocale(0, "");
+
+	int num;
+	cout << "Введите число:";
+	cin >> num;
+	int square = num * num;
+	cout << "Квадрат числа:" << square << endl;
+	int cube = num * num * num;
+	cout << "Куб числа:" << cube << endl;
+	
+	return 0;
+    
+}
